@@ -8,7 +8,7 @@
 
 ## 🎯 Sobre este repositório
 
-Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e me preparar para entrevistas técnicas**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação até o primeiro emprego na área.
+Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e potencializar a vivencia com codigo e implementação de algoritimos, para acrescentar experiencia no processo e Graduação em Bando de Dados (Faculdade SENAC-EAD)**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação até o primeiro emprego na área.
 
 Cada capítulo do livro vira um projeto isolado, com:
 
