@@ -14,7 +14,6 @@ Cada capítulo do livro vira um projeto isolado, com:
 
 - 🧠 **Implementação do algoritmo** em C# idiomático (não pseudocódigo)
 - ✅ **Testes unitários** cobrindo casos de borda (xUnit, padrão Arrange-Act-Assert)
-- 📝 **Anotações** sobre complexidade (Big O), decisões de design e perguntas típicas de entrevista
 - 🐳 Ambiente 100% reprodutível via **Dev Container**
 
 ## 📚 Progresso pelo livro
