@@ -8,12 +8,13 @@
 
 ## 🎯 Sobre este repositório
 
-Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e potencializar a vivencia com codigo e implementação de algoritimos, para acrescentar experiencia no processo e Graduação em Bando de Dados (Faculdade SENAC-EAD)**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação até o primeiro emprego na área.
+Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e me preparar para entrevistas técnicas**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação até o primeiro emprego na área.
 
 Cada capítulo do livro vira um projeto isolado, com:
 
 - 🧠 **Implementação do algoritmo** em C# idiomático (não pseudocódigo)
 - ✅ **Testes unitários** cobrindo casos de borda (xUnit, padrão Arrange-Act-Assert)
+- 📝 **Anotações** sobre complexidade (Big O), decisões de design e perguntas típicas de entrevista
 - 🐳 Ambiente 100% reprodutível via **Dev Container**
 
 ## 📚 Progresso pelo livro
@@ -22,13 +23,13 @@ Cada capítulo do livro vira um projeto isolado, com:
 |---|----------|-----------|--------|
 | 1 | Introdução a Algoritmos | Busca Binária (iterativa e recursiva) | ✅ Concluído |
 | 2 | Ordenação por Seleção | Selection Sort, Arrays vs Listas Encadeadas | ✅ Concluído |
-| 3 | Recursão | Casos-base, pilha de chamadas | 🔜 Em andamento |
-| 4 | Quicksort | Dividir para conquistar | ⬜ Planejado |
+| 3 | Recursão | Fatorial, Fibonacci, pilha de chamadas | ✅ Concluído |
+| 4 | Quicksort | Dividir para conquistar | 🔜 Em andamento |
 | 5 | Tabelas Hash | Funções hash, colisões | ⬜ Planejado |
 | 6 | Busca em Largura (BFS) | Grafos, caminho mínimo | ⬜ Planejado |
 | 7 | Algoritmo de Dijkstra | Grafos com peso | ⬜ Planejado |
 | 8 | Algoritmos Gulosos | Problema da mochila, NP-completude | ⬜ Planejado |
-| 9 | Programação Dinâmica | Subsequência comum, mochila | ⬜ Planejado |
+| 9 | Programação Dinâmica | Subsequência comum, mochila, memoization | ⬜ Planejado |
 | 10 | K-Vizinhos Mais Próximos | Introdução a Machine Learning | ⬜ Planejado |
 | 11 | Próximos Passos | Árvores, MapReduce, filtros de Bloom | ⬜ Planejado |
 
@@ -47,6 +48,10 @@ Entendendo-Algoritimos/
 │   └── SelectionSort.cs
 ├── Cap02_OrdenacaoSelecao.Tests/
 │   └── Cap02_OrdenacaoSelecaoTheoryTests.cs
+├── Cap03_Recursao/                     # Fatorial e Fibonacci
+│   └── Recursao.cs
+├── Cap03_Recursao.Tests/
+│   └── RecursaoTests.cs
 ├── .devcontainer/                      # Ambiente de desenvolvimento isolado (Docker)
 │   ├── devcontainer.json
 │   └── Dockerfile
@@ -84,7 +89,7 @@ Cada capítulo segue o mesmo processo:
 
 1. **Entender o conceito** — o que o livro explica, sem pular pra prática antes de fixar o "porquê"
 2. **Implementar sozinho** — a lógica é sempre escrita à mão, sem código pronto, pra desenvolver raciocínio real
-3. **Cobrir com testes** — pensando nos casos de borda que entrevistadores testam de verdade
+3. **Cobrir com testes** — pensando nos casos de borda que entrevistadores testam de verdade, incluindo validação de exceções (fail-fast) quando a entrada foge do domínio do problema
 4. **Revisar complexidade** — Big O de tempo e espaço, e variações que costumam aparecer em entrevista técnica
 5. **Documentar** — anotações que depois viram roteiro de vídeo
 
