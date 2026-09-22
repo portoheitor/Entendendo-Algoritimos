@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cap01_IntroBigO\Cap01_IntroBigO.csproj" />
+    <ProjectReference Include="..\Cap01_BuscaBinaria\Cap01_IntroBigO.csproj" />
   </ItemGroup>
 
 </Project>

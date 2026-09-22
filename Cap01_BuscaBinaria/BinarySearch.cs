@@ -1,4 +1,4 @@
-namespace  Cap01_IntroBigO;
+namespace  Cap01_BuscaBinaria;
 
 public static class BinarySearch
 {

@@ -1,7 +1,7 @@
 using Xunit;
-using Cap01_IntroBigO;
+using Cap01_BuscaBinaria;
 
-namespace Cap01_IntroBigO.Tests;
+namespace Cap01_BuscaBinaria.Tests;
 
 public class BinarySearchTheoryTests
 {
