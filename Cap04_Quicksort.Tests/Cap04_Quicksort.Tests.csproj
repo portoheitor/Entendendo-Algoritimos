@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cap03_Recursao\Cap03_Recursao.csproj" />
+    <ProjectReference Include="..\Cap04_Quicksort\Cap04_Quicksort.csproj" />
   </ItemGroup>
 
 </Project>

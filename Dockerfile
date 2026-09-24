@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0
+FROM mcr.microsoft.com/dotnet/sdk:10.0
 
 RUN apt-get update && apt-get install -y \
     git \
@@ -15,7 +15,7 @@ RUN (type -p wget >/dev/null || (apt-get update && apt-get install wget -y)) \
     && apt-get update \
     && apt-get install gh -y
 
-RUN dotnet tool install --global dotnet-ef --version 8.0.0
+RUN dotnet tool install --global dotnet-ef --version 10.0.0
 ENV PATH="${PATH}:/root/.dotnet/tools"
 
 WORKDIR /workspace

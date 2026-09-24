@@ -2,13 +2,13 @@
 
 > Implementações, testes e anotações práticas baseadas no livro **"Entendendo Algoritmos: Um Guia Ilustrado para Programadores e Outros Curiosos"**, de Aditya Y. Bhargava — construídas do zero em C#, com foco em preparação para entrevistas técnicas.
 
-![C#](https://img.shields.io/badge/C%23-.NET%208-512BD4?logo=csharp&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-.NET%2010-512BD4?logo=csharp&logoColor=white)
 ![xUnit](https://img.shields.io/badge/Tests-xUnit-5C2D91?logo=nunit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20andamento-yellow)
 
 ## 🎯 Sobre este repositório
 
-Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e me preparar para entrevistas técnicas**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação até o primeiro emprego na área.
+Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e me preparar para entrevistas técnicas**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação.
 
 Cada capítulo do livro vira um projeto isolado, com:
 
@@ -23,8 +23,8 @@ Cada capítulo do livro vira um projeto isolado, com:
 | 1 | Introdução a Algoritmos | Busca Binária (iterativa e recursiva) | ✅ Concluído |
 | 2 | Ordenação por Seleção | Selection Sort, Arrays vs Listas Encadeadas | ✅ Concluído |
 | 3 | Recursão | Fatorial, Fibonacci, pilha de chamadas | ✅ Concluído |
-| 4 | Quicksort | Dividir para conquistar | 🔜 Em andamento |
-| 5 | Tabelas Hash | Funções hash, colisões | ⬜ Planejado |
+| 4 | Quicksort | Particionamento (esquema de Lomuto), dividir para conquistar | ✅ Concluído |
+| 5 | Tabelas Hash | Funções hash, colisões | 🔜 Em andamento |
 | 6 | Busca em Largura (BFS) | Grafos, caminho mínimo | ⬜ Planejado |
 | 7 | Algoritmo de Dijkstra | Grafos com peso | ⬜ Planejado |
 | 8 | Algoritmos Gulosos | Problema da mochila, NP-completude | ⬜ Planejado |
@@ -36,9 +36,9 @@ Cada capítulo do livro vira um projeto isolado, com:
 
 ```
 Entendendo-Algoritimos/
-├── Cap01_IntroBigO/                   # Busca Binária (iterativa e recursiva)
+├── Cap01_BuscaBinaria/                 # Busca Binária (iterativa e recursiva)
 │   └── BinarySearch.cs
-├── Cap01_IntroBigO.Tests/
+├── Cap01_BuscaBinaria.Tests/
 │   ├── BinarySearchTests.cs
 │   ├── BinarySearchRecursiveTests.cs
 │   ├── BinarySearchTheoryTests.cs
@@ -51,7 +51,11 @@ Entendendo-Algoritimos/
 │   └── Recursao.cs
 ├── Cap03_Recursao.Tests/
 │   └── RecursaoTests.cs
-├── .devcontainer/                      # Ambiente de desenvolvimento isolado (Docker)
+├── Cap04_Quicksort/                    # Quicksort (particionamento de Lomuto)
+│   └── Quicksort.cs
+├── Cap04_Quicksort.Tests/
+│   └── QuickSortTestes.cs
+├── .devcontainer/                      # Ambiente de desenvolvimento isolado (Docker, .NET 10)
 │   ├── devcontainer.json
 │   └── Dockerfile
 └── AlgoritmosInterview.sln
@@ -90,7 +94,8 @@ Cada capítulo segue o mesmo processo:
 2. **Implementar sozinho** — a lógica é sempre escrita à mão, sem código pronto, pra desenvolver raciocínio real
 3. **Cobrir com testes** — pensando nos casos de borda que entrevistadores testam de verdade, incluindo validação de exceções (fail-fast) quando a entrada foge do domínio do problema
 4. **Revisar complexidade** — Big O de tempo e espaço, e variações que costumam aparecer em entrevista técnica
-5. **Documentar** — anotações que depois viram roteiro de vídeo
+5. **Depurar com o debugger** — usar breakpoints e inspeção de variáveis para visualizar a execução de algoritmos recursivos na prática
+6. **Documentar** — anotações que depois viram roteiro de vídeo
 
 ## 📎 Recursos
 
