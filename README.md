@@ -8,7 +8,7 @@
 
 ## 🎯 Sobre este repositório
 
-Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e me preparar para entrevistas técnicas**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação.
+Estou estudando estruturas de dados e algoritmos do zero, capítulo a capítulo, com um objetivo bem claro: **desenvolver raciocínio lógico e me preparar para entrevistas técnicas**, documentando o processo pra transformar em conteúdo (vídeos) sobre minha jornada de aprendizado em programação até o primeiro emprego na área.
 
 Cada capítulo do livro vira um projeto isolado, com:
 
@@ -24,8 +24,8 @@ Cada capítulo do livro vira um projeto isolado, com:
 | 2 | Ordenação por Seleção | Selection Sort, Arrays vs Listas Encadeadas | ✅ Concluído |
 | 3 | Recursão | Fatorial, Fibonacci, pilha de chamadas | ✅ Concluído |
 | 4 | Quicksort | Particionamento (esquema de Lomuto), dividir para conquistar | ✅ Concluído |
-| 5 | Tabelas Hash | Funções hash, colisões | 🔜 Em andamento |
-| 6 | Busca em Largura (BFS) | Grafos, caminho mínimo | ⬜ Planejado |
+| 5 | Tabelas Hash | Dictionary/HashSet na prática (Two Sum, duplicatas) + implementação própria do zero | ✅ Concluído |
+| 6 | Busca em Largura (BFS) | Grafos, caminho mínimo | 🔜 Em andamento |
 | 7 | Algoritmo de Dijkstra | Grafos com peso | ⬜ Planejado |
 | 8 | Algoritmos Gulosos | Problema da mochila, NP-completude | ⬜ Planejado |
 | 9 | Programação Dinâmica | Subsequência comum, mochila, memoization | ⬜ Planejado |
@@ -55,6 +55,13 @@ Entendendo-Algoritimos/
 │   └── Quicksort.cs
 ├── Cap04_Quicksort.Tests/
 │   └── QuickSortTestes.cs
+├── Cap05_TabelaHash/                   # Dictionary/HashSet (Two Sum, duplicatas) + HashTable própria
+│   ├── DictionaryUsage.cs
+│   └── HashTable.cs
+├── Cap05_TabelaHash.Tests/
+│   ├── TabelaHashDictionaryUsageTests.cs
+│   ├── TabelaHashTwoSumTests.cs
+│   └── HashTableTests.cs
 ├── .devcontainer/                      # Ambiente de desenvolvimento isolado (Docker, .NET 10)
 │   ├── devcontainer.json
 │   └── Dockerfile
@@ -96,6 +103,8 @@ Cada capítulo segue o mesmo processo:
 4. **Revisar complexidade** — Big O de tempo e espaço, e variações que costumam aparecer em entrevista técnica
 5. **Depurar com o debugger** — usar breakpoints e inspeção de variáveis para visualizar a execução de algoritmos recursivos na prática
 6. **Documentar** — anotações que depois viram roteiro de vídeo
+
+Quando faz sentido, vou além do que o livro cobre — por exemplo, no Capítulo 5 (Tabelas Hash) o livro foca apenas no uso do `Dictionary` já pronto da linguagem, mas optei por também implementar uma tabela hash do zero (função hash própria, encadeamento separado), para entender o mecanismo por completo.
 
 ## 📎 Recursos
 
