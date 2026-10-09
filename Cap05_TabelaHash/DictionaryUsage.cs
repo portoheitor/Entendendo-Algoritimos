@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-namespace Cap05_TabelaHash;
+﻿namespace Cap05_TabelaHash;
 
 public static class DictionaryUsage
 {
