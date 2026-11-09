@@ -25,7 +25,7 @@ Cada capítulo do livro vira um projeto isolado, com:
 | 3 | Recursão | Fatorial, Fibonacci, pilha de chamadas | ✅ Concluído |
 | 4 | Quicksort | Particionamento (esquema de Lomuto), dividir para conquistar | ✅ Concluído |
 | 5 | Tabelas Hash | Dictionary/HashSet na prática (Two Sum, duplicatas) + implementação própria do zero | ✅ Concluído |
-| 6 | Busca em Largura (BFS) | Grafos, caminho mínimo | 🔜 Em andamento |
+| 6 | Busca em Largura (BFS) | Grafos, caminho mínimo | ✅ Concluído |
 | 7 | Algoritmo de Dijkstra | Grafos com peso | ⬜ Planejado |
 | 8 | Algoritmos Gulosos | Problema da mochila, NP-completude | ⬜ Planejado |
 | 9 | Programação Dinâmica | Subsequência comum, mochila, memoization | ⬜ Planejado |
@@ -62,6 +62,10 @@ Entendendo-Algoritimos/
 │   ├── TabelaHashDictionaryUsageTests.cs
 │   ├── TabelaHashTwoSumTests.cs
 │   └── HashTableTests.cs
+├── Cap06_BuscaEmLargura/                 # Busca em Largura (BFS) + Grafo
+│   └── BuscaEmLargura.cs
+├── Cap06_BuscaEmLargura.Tests/
+│   └── Cap06_BuscaEmLargura.Tests.cs
 ├── .devcontainer/                      # Ambiente de desenvolvimento isolado (Docker, .NET 10)
 │   ├── devcontainer.json
 │   └── Dockerfile
