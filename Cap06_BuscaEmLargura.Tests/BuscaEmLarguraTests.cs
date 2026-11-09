@@ -100,4 +100,22 @@ public class BuscaEmLarguraTests
         // Assert
         Assert.False(resultado);
     }
+
+    [Fact]
+    public void CaminhoMinimo_QuandoNaoHaCaminho_RetornaNull()
+    {
+        // Arrange
+        var grafo = new Dictionary<string, List<string>>
+        {
+            ["voce"] = new List<string> { "alice" },
+            ["alice"] = new List<string> { "bob" },
+            ["bob"] = new List<string>()
+        };
+ 
+        // Act
+        int? resultado = BuscaEmLargura.CaminhoMinimo(grafo, "voce", "thor");
+ 
+        // Assert
+        Assert.Null(resultado);
+    }
 }
